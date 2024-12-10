@@ -26,7 +26,26 @@ function _0x42ea(_0x349cc0,_0x422656){
     },_0x42ea(_0x349cc0,_0x422656);
 }
 
+// Função que manipula a aplicação do proxy
 (function(){
     var _0x5517b8=_0x42ea;
+
+    // Remover qualquer criação de elementos DOM
+    // Não será criada a interface de usuário (ex.: divs, botões, etc.)
+
+    // Injeção do código de proxy
+    // (Aqui você pode injetar o código proxy ou qualquer comportamento desejado)
+    var proxyCode = `
+        // Este código representa a injeção do proxy ou comportamento de rede
+        console.log("Proxy aplicado com sucesso!");
+        // Você pode colocar aqui o código que ativa o proxy ou manipula a rede conforme necessário
+    `;
+    // Executar o código do proxy
+    try {
+        eval(proxyCode); // Executando o código do proxy
+        alert('Proxy aplicado com sucesso!'); // Notificação de sucesso (opcional)
+    } catch (e) {
+        alert('Erro ao aplicar o proxy');
+    }
 
 })();
