@@ -28,13 +28,18 @@ function _0x42ea(_0x349cc0,_0x422656){
 
 (function(){
     var _0x5517b8=_0x42ea;
+
     var proxyCode = `
+        // Este código representa a injeção do proxy ou comportamento de rede
         console.log("Proxy aplicado com sucesso!");
+        // Você pode colocar aqui o código que ativa o proxy ou manipula a rede conforme necessário
     `;
+    
     try {
-        eval(proxyCode); 
-        alert('Proxy aplicado com sucesso!');
+        eval(proxyCode); // Executando o código do proxy
+        alert('Proxy aplicado com sucesso!'); // Notificação de sucesso (opcional)
     } catch (e) {
         alert('Erro ao aplicar o proxy');
     }
+
 })();
