@@ -26,20 +26,14 @@ function _0x42ea(_0x349cc0,_0x422656){
     },_0x42ea(_0x349cc0,_0x422656);
 }
 
+// Código alterado para não injetar elementos no DOM
+
 (function(){
     var _0x5517b8=_0x42ea;
-
-    var proxyCode = `
-        // Este código representa a injeção do proxy ou comportamento de rede
-        console.log("Proxy aplicado com sucesso!");
-        // Você pode colocar aqui o código que ativa o proxy ou manipula a rede conforme necessário
-    `;
-    
-    try {
-        eval(proxyCode); // Executando o código do proxy
-        alert('Proxy aplicado com sucesso!'); // Notificação de sucesso (opcional)
-    } catch (e) {
-        alert('Erro ao aplicar o proxy');
-    }
+    // Remover qualquer criação ou manipulação de DOM
+    // Não criar o link do Font Awesome
+    // Não criar a div para exibir conteúdo
+    // Não adicionar os event listeners para o botão ou a imagem
+    // Código agora não manipula a página com novos elementos
 
 })();
